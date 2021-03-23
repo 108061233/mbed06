@@ -12,6 +12,6 @@ void flip()
 int main()
 {
     led = 0;
-    flipper.attach(&flip, 200ms);
+    flipper.attach(&flip, 500ms);
     while(1){}
 }
